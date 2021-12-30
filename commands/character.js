@@ -20,7 +20,7 @@ module.exports = {
 			.then(res => res.json())
 			.then((json) => {
 				let charName = json.characters.character.name;
-				if (charName.lenght > 0) {
+				if (charName.length > 0) {
 					let with_guild = `**Level:** ${json.characters.character.level}
 					**Vocation:** ${json.characters.character.vocation}
 					**World:** ${json.characters.character.world}
